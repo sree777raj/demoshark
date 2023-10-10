@@ -1,0 +1,42 @@
+{
+  "page": {
+    "totalElements": 2
+  },
+  "links": {},
+  "rewardCategories": [
+    {
+      "categoryName": "categoryname50",
+      "programId": "327",
+      "categoryId": "204",
+      "multiplier": 20.20,
+      "description": "description1",
+      "fiAttributes": [
+        {
+          "name": "308",
+          "value": "nine"
+        },
+        {
+          "name": "309",
+          "value": "ten"
+        }
+      ]
+    },
+    {
+      "categoryName": "categoryname20",
+      "programId": "327",
+      "categoryId": "211",
+      "multiplier": 20.20,
+      "description": "description2",
+      "fiAttributes": [
+        {
+          "name": "302",
+          "value": "three"
+        },
+        {
+          "name": "303",
+          "value": "four"
+        }
+      ]
+    }
+  ]
+}

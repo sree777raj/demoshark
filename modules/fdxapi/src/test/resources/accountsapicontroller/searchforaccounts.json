@@ -1,0 +1,97 @@
+{"page": {
+  "totalElements": 4
+},
+  "links": {},
+  "accounts": [
+    {
+      "insuranceAccount": {
+        "accountId": "002",
+        "accountType": "401A",
+        "accountNumber": "207",
+        "accountNumberDisplay": "2121",
+        "productName": "newsample",
+        "nickname": "207",
+        "status": "OPEN",
+        "description": "sdsa",
+        "currency": {
+          "currencyRate": 5.64,
+          "currencyCode": "BAM",
+          "originalCurrencyCode": "BAM"
+        },
+        "fiAttributes": [
+          {
+            "name": "21",
+            "value": "21"
+          },
+          {
+            "name": "22",
+            "value": "22"
+          }
+        ]
+      }
+    },
+    {
+      "loanAccount": {
+        "accountId": "123-te-01",
+        "accountType": "LOAN",
+        "accountNumberDisplay": "XXXXX4560",
+        "nickname": "My vehicle Mortgage",
+        "status": "OPEN",
+        "description": "3 Year Mortgage "
+      }
+    },
+    {
+      "investmentAccount": {
+        "accountId": "211",
+        "accountType": "COMMERCIALINVESTMENT",
+        "accountNumber": "1454",
+        "accountNumberDisplay": "3211",
+        "productName": "sample1",
+        "nickname": "sample1",
+        "status": "OPEN",
+        "description": "sdsa",
+        "currency": {
+          "currencyRate": 5.64,
+          "currencyCode": "BAM",
+          "originalCurrencyCode": "BAM"
+        },
+        "fiAttributes": [
+          {
+            "name": "2110",
+            "value": "2111"
+          },
+          {
+            "name": "2112",
+            "value": "2113"
+          }
+        ]
+      }
+    },
+    {
+      "investmentAccount": {
+        "accountId": "211A",
+        "accountType": "OTHERINVESTMENT",
+        "accountNumber": "1454",
+        "accountNumberDisplay": "3211",
+        "productName": "sample1",
+        "nickname": "sample1",
+        "status": "OPEN",
+        "description": "sdsa",
+        "currency": {
+          "currencyRate": 5.64,
+          "currencyCode": "BAM",
+          "originalCurrencyCode": "BAM"
+        },
+        "fiAttributes": [
+          {
+            "name": "2110",
+            "value": "2111"
+          },
+          {
+            "name": "2112",
+            "value": "2113"
+          }
+        ]
+      }
+    }
+  ]}

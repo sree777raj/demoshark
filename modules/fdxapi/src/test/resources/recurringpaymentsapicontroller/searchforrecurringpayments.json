@@ -1,0 +1,59 @@
+{
+  "page": {
+    "totalElements": 3
+  },
+  "updates": {
+    "nextUpdateId": "RECURRINGPAYMENT-1"
+  },
+  "links": {
+    "updates": {
+      "href": "/recurring-payments?updatedSince=RECURRINGPAYMENT-1"
+    }
+  },
+  "recurringPayments": [
+    {
+      "recurringPaymentId": "RECURRINGPAYMENT-1",
+      "frequency": "TWICEMONTHLY",
+      "duration": {
+        "type": "NUMBEROFTIMES",
+        "numberOfTimes": 100.00
+      },
+      "fromAccountId": "251",
+      "toPayeeId": "PAYEE-1",
+      "amount": 10.14,
+      "merchantAccountId": "400",
+      "dueDate": "2022-12-31",
+      "recurringPaymentId": "RECURRINGPAYMENT-1",
+      "status": "SCHEDULED"
+    },
+    {
+      "recurringPaymentId": "RECURRINGPAYMENT-2",
+      "frequency": "TWICEMONTHLY",
+      "duration": {
+        "type": "NOEND"
+      },
+      "fromAccountId": "252",
+      "toPayeeId": "PAYEE-2",
+      "amount": 10.14,
+      "merchantAccountId": "401",
+      "dueDate": "2022-12-31",
+      "recurringPaymentId": "RECURRINGPAYMENT-2",
+      "status": "SCHEDULED"
+    },
+    {
+      "recurringPaymentId": "RECURRINGPAYMENT-3",
+      "frequency": "TWICEMONTHLY",
+      "duration": {
+        "type": "NUMBEROFTIMES",
+        "numberOfTimes": 10.00
+      },
+      "fromAccountId": "349",
+      "toPayeeId": "PAYEE-3",
+      "amount": 50.14,
+      "merchantAccountId": "401",
+      "dueDate": "2022-12-31",
+      "recurringPaymentId": "RECURRINGPAYMENT-3",
+      "status": "SCHEDULED"
+    }
+  ]
+}

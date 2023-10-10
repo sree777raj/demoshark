@@ -1,0 +1,64 @@
+{
+  "client_id": "V8tvEkZWhDAdxSaKGUJKM",
+  "client_secret": "SpsuwZIxnp8bBEhp5sk1EKiIKTZ4X4DKU",
+  "client_name": "ClientEx",
+  "description": "Recipient Application servicing financial use case requiring permissioned data shambho ok",
+  "redirect_uris": [
+    "https://partner.example/callback"
+  ],
+  "logo_uri": "https://client.example.org/logo.png",
+  "client_uri": "https://example.net/",
+  "contacts": [
+    "support@example.net"
+  ],
+  "scope": "ACCOUNT_DETAILED TRANSACTIONS INVESTMENTS",
+  "duration_period": 70,
+  "lookback_period": 365,
+  "registry_references": [
+    {
+      "registered_entity_name": "Official recipient name shambho",
+      "registered_entity_id": "4HCHXIURY78NNH6JH",
+      "registry": "GLEIF"
+    }
+  ],
+  "intermediaries": [
+    {
+      "registry_references": [
+        {
+          "registered_entity_name": "Data Access Platform listed company Name",
+          "registered_entity_id": "JJH7776512TGMEJSG",
+          "registry": "FDX"
+        }
+      ],
+      "name": "Data Access Platform Name",
+      "description": "Data Access Platform specializing in servicing permissioned data sharing for Data Recipients",
+      "uri": "https://partner.example/",
+      "logo_uri": "https://partner.example/logo.png",
+      "contacts": [
+        "support@partner.com"
+      ]
+    },
+    {
+      "registry_references": [
+        {
+          "registered_entity_name": "Service Provider listed company Name",
+          "registered_entity_id": "9LUQNDG778LI9D1",
+          "registry": "GLEIF"
+        }
+      ],
+      "name": "Digital Service Provider Name",
+      "description": "Digital Service Provider to the Recipient",
+      "uri": "https://sub-partner-one.example/",
+      "logo_uri": "https://sub-partner-one.example/logo.png",
+      "contacts": [
+        "support@sub-partner-one.com"
+      ]
+    }
+  ],
+  "grant_types": [
+    "refresh_token",
+    "authorization_code"
+  ],
+  "token_endpoint_auth_method": "client_secret_basic",
+  "status": "Approved"
+}

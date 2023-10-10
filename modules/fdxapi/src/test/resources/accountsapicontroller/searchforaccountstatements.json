@@ -1,0 +1,18 @@
+{
+  "page": {
+    "totalElements": 1
+  },
+  "links": {},
+  "statements": [
+    {
+      "accountId": "211",
+      "statementId": "50",
+      "statementDate": "2019-10-19T23:36:32.000+00:00",
+      "description": "assaa",
+      "links": {
+        "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+        "action": "GET"
+      }
+    }
+  ]
+}

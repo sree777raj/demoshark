@@ -1,0 +1,15 @@
+{
+  "fromAccountId":"349",
+  "toAccountId":"350",
+  "amount":5.00,
+  "transferId":"transfer71",
+  "memo":"memo",
+  "paymentDetails":{
+    "principalAmount":1.12,
+    "interestAmount":1.12,
+    "insuranceAmount":1.12,
+    "escrowAmount":1.12,
+    "pmiAmount":1.12,
+    "feesAmount":1.12
+  }
+}

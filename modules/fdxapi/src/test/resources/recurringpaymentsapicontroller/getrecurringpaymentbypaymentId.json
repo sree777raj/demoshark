@@ -1,0 +1,28 @@
+{
+  "page": {
+    "totalElements": 1
+  },
+  "updates": {
+    "nextUpdateId": "PAYMENT-8"
+  },
+  "links": {
+    "updates": {
+      "href": "/recurring-payments/RECURRINGPAYMENT-2/payments?updatedSince=PAYMENT-8"
+    }
+  },
+  "payments": [
+    {
+      "paymentId": "PAYMENT-6",
+      "fromAccountId": "252",
+      "toPayeeId": "PAYEE-2",
+      "amount": 10.14,
+      "merchantAccountId": "401",
+      "dueDate": "2022-12-30",
+      "paymentId": "PAYMENT-6",
+      "recurringPaymentId": "RECURRINGPAYMENT-2",
+      "cancelledTimestamp": "2022-11-02T15:36:56.000+00:00",
+      "status": "CANCELLED",
+      "links": {}
+    }
+  ]
+}

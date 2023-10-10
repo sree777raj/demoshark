@@ -1,0 +1,244 @@
+{
+  "page": {
+    "totalElements": 3
+  },
+  "rewardPrograms": [
+    {
+      "programId": "327",
+      "programName": "programname",
+      "programUrl": "url",
+      "memberships": [
+        {
+          "accountIds": [
+            "{203,204}",
+            "{205,206}"
+          ],
+          "customerId": "203",
+          "memberId": "329",
+          "memberNumber": "1313",
+          "memberTier": "GOLD",
+          "businessOrConsumer": "BUSINESS",
+          "balances": [
+            {
+              "name": "name",
+              "type": "CASHBACK",
+              "balance": 10.20,
+              "accruedYtd": 10.20,
+              "redeemedYtd": 10.20,
+              "qualifying": true,
+              "fiAttributes": [
+                {
+                  "name": "321",
+                  "value": "322"
+                },
+                {
+                  "name": "323",
+                  "value": "324"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "accountIds": [
+            "{203,204}",
+            "{205,206}"
+          ],
+          "customerId": "204",
+          "memberId": "329",
+          "memberNumber": "1313",
+          "memberTier": "GOLD",
+          "businessOrConsumer": "BUSINESS",
+          "balances": [
+            {
+              "name": "name",
+              "type": "CASHBACK",
+              "balance": 10.20,
+              "accruedYtd": 10.20,
+              "redeemedYtd": 10.20,
+              "qualifying": true,
+              "fiAttributes": [
+                {
+                  "name": "321",
+                  "value": "322"
+                },
+                {
+                  "name": "323",
+                  "value": "324"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "fiAttributes": [
+        {
+          "name": "321",
+          "value": "322"
+        },
+        {
+          "name": "323",
+          "value": "324"
+        }
+      ]
+    },
+    {
+      "programId": "329",
+      "programName": "programname",
+      "programUrl": "url",
+      "memberships": [
+        {
+          "accountIds": [
+            "{203,204}",
+            "{205,206}"
+          ],
+          "customerId": "203",
+          "memberId": "329",
+          "memberNumber": "1313",
+          "memberTier": "GOLD",
+          "businessOrConsumer": "BUSINESS",
+          "balances": [
+            {
+              "name": "name",
+              "type": "CASHBACK",
+              "balance": 10.20,
+              "accruedYtd": 10.20,
+              "redeemedYtd": 10.20,
+              "qualifying": true,
+              "fiAttributes": [
+                {
+                  "name": "321",
+                  "value": "322"
+                },
+                {
+                  "name": "323",
+                  "value": "324"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "accountIds": [
+            "{203,204}",
+            "{205,206}"
+          ],
+          "customerId": "204",
+          "memberId": "329",
+          "memberNumber": "1313",
+          "memberTier": "GOLD",
+          "businessOrConsumer": "BUSINESS",
+          "balances": [
+            {
+              "name": "name",
+              "type": "CASHBACK",
+              "balance": 10.20,
+              "accruedYtd": 10.20,
+              "redeemedYtd": 10.20,
+              "qualifying": true,
+              "fiAttributes": [
+                {
+                  "name": "321",
+                  "value": "322"
+                },
+                {
+                  "name": "323",
+                  "value": "324"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "fiAttributes": [
+        {
+          "name": "321",
+          "value": "322"
+        },
+        {
+          "name": "323",
+          "value": "324"
+        }
+      ]
+    },
+    {
+      "programId": "340",
+      "programName": "programname",
+      "programUrl": "url",
+      "memberships": [
+        {
+          "accountIds": [
+            "{203,204}",
+            "{205,206}"
+          ],
+          "customerId": "203",
+          "memberId": "329",
+          "memberNumber": "1313",
+          "memberTier": "GOLD",
+          "businessOrConsumer": "BUSINESS",
+          "balances": [
+            {
+              "name": "name",
+              "type": "CASHBACK",
+              "balance": 10.20,
+              "accruedYtd": 10.20,
+              "redeemedYtd": 10.20,
+              "qualifying": true,
+              "fiAttributes": [
+                {
+                  "name": "321",
+                  "value": "322"
+                },
+                {
+                  "name": "323",
+                  "value": "324"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "accountIds": [
+            "{203,204}",
+            "{205,206}"
+          ],
+          "customerId": "204",
+          "memberId": "329",
+          "memberNumber": "1313",
+          "memberTier": "GOLD",
+          "businessOrConsumer": "BUSINESS",
+          "balances": [
+            {
+              "name": "name",
+              "type": "CASHBACK",
+              "balance": 10.20,
+              "accruedYtd": 10.20,
+              "redeemedYtd": 10.20,
+              "qualifying": true,
+              "fiAttributes": [
+                {
+                  "name": "321",
+                  "value": "322"
+                },
+                {
+                  "name": "323",
+                  "value": "324"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "fiAttributes": [
+        {
+          "name": "321",
+          "value": "322"
+        },
+        {
+          "name": "323",
+          "value": "324"
+        }
+      ]
+    }
+  ]
+}

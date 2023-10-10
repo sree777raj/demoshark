@@ -1,0 +1,530 @@
+{
+  "page": {
+    "nextOffset": "10",
+    "totalElements": 15
+  },
+  "links": {
+    "next": {
+      "href": "/customers?limit=10&offset=10",
+      "action": "GET"
+    }
+  },
+  "customers": [
+    {
+      "customerId": "00T105",
+      "name": {
+        "first": "first",
+        "middle": "middle",
+        "last": "last",
+        "suffix": "suffix",
+        "prefix": "prefix",
+        "company": "company"
+      },
+      "dateOfBirth": "1990-08-23T00:00:00.000+00:00",
+      "taxId": "123Y",
+      "governmentId": "E231",
+      "email": [
+        "abc@gmailcom",
+        "def@gmail.com"
+      ],
+      "addresses": [
+        {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalcode",
+          "country": "AL",
+          "type": "MAILING"
+        }
+      ],
+      "telephones": [
+        {
+          "type": "HOME",
+          "country": "AL",
+          "number": "12332"
+        }
+      ],
+      "accounts": [
+        {
+          "accountId": "002",
+          "links": {
+            "account": {
+              "href": "AWSWW",
+              "action": "GET"
+            }
+          },
+          "relationship": "BUSINESS"
+        }
+      ]
+    },
+    {
+      "customerId": "105",
+      "name": {
+        "first": "first",
+        "middle": "middle",
+        "last": "last",
+        "suffix": "suffix",
+        "prefix": "prefix",
+        "company": "company"
+      },
+      "dateOfBirth": "1990-06-23T00:00:00.000+00:00",
+      "taxId": "taxId",
+      "governmentId": "governmentId",
+      "email": [
+        "abc@gmailcom",
+        "def@gmail.com"
+      ],
+      "addresses": [
+        {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalcode",
+          "country": "AL",
+          "type": "MAILING"
+        }
+      ],
+      "telephones": [
+        {
+          "type": "HOME",
+          "country": "AL",
+          "number": "12332"
+        }
+      ],
+      "accounts": [
+        {
+          "accountId": "253",
+          "links": {
+            "account": {
+              "href": "AWSWW",
+              "action": "GET"
+            }
+          },
+          "relationship": "BUSINESS"
+        },
+        {
+          "accountId": "211D",
+          "links": {
+            "account": {
+              "href": "AWSWW",
+              "action": "GET"
+            }
+          },
+          "relationship": "BUSINESS"
+        },
+        {
+          "accountId": "Loan252",
+          "links": {
+            "account": {
+              "href": "AWSWW",
+              "action": "GET"
+            }
+          },
+          "relationship": "BUSINESS"
+        },
+        {
+          "accountId": "257",
+          "links": {
+            "account": {
+              "href": "AWSWW",
+              "action": "GET"
+            }
+          },
+          "relationship": "BUSINESS"
+        }
+      ]
+    },
+    {
+      "customerId": "105a",
+      "name": {
+        "first": "test",
+        "last": "customer",
+        "company": "company"
+      },
+      "dateOfBirth": "2021-06-23T00:00:00.000+00:00",
+      "taxId": "taxId",
+      "governmentId": "governmentId",
+      "email": [
+        "test@gmail.com",
+        "def@gmail.com"
+      ],
+      "addresses": [
+        {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalcode",
+          "country": "AL",
+          "type": "MAILING"
+        }
+      ],
+      "telephones": [
+        {
+          "type": "HOME",
+          "country": "AL",
+          "number": "12332"
+        }
+      ],
+      "accounts": [
+        {
+          "accountId": "254",
+          "links": {
+            "account": {
+              "href": "AWSWW",
+              "action": "GET"
+            }
+          },
+          "relationship": "BUSINESS"
+        }
+      ]
+    },
+    {
+      "customerId": "130",
+      "name": {
+        "first": "first",
+        "middle": "middle",
+        "last": "last",
+        "suffix": "suffix",
+        "prefix": "prefix",
+        "company": "company"
+      },
+      "dateOfBirth": "1990-06-23T00:00:00.000+00:00",
+      "taxId": "taxId",
+      "governmentId": "governmentId",
+      "email": [
+        "testloc@gmail.com",
+        "def@gmail.com"
+      ],
+      "addresses": [
+        {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalcode",
+          "country": "AL",
+          "type": "MAILING"
+        }
+      ],
+      "telephones": [
+        {
+          "type": "HOME",
+          "country": "AL",
+          "number": "12332"
+        }
+      ],
+      "accounts": [
+        {
+          "accountId": "251",
+          "links": {
+            "account": {
+              "href": "AWSWW",
+              "action": "GET"
+            }
+          },
+          "relationship": "BUSINESS"
+        }
+      ]
+    },
+    {
+      "customerId": "131",
+      "name": {
+        "first": "first",
+        "middle": "middle",
+        "last": "last",
+        "suffix": "suffix",
+        "prefix": "prefix",
+        "company": "company"
+      },
+      "dateOfBirth": "2021-06-23T00:00:00.000+00:00",
+      "taxId": "taxId",
+      "governmentId": "governmentId",
+      "email": [
+        "abc@gmailcom",
+        "def@gmail.com"
+      ],
+      "addresses": [
+        {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalcode",
+          "country": "AL",
+          "type": "MAILING"
+        }
+      ],
+      "telephones": [
+        {
+          "type": "HOME",
+          "country": "AL",
+          "number": "12332"
+        }
+      ],
+      "accounts": [
+        {
+          "accountId": "251",
+          "links": {
+            "account": {
+              "href": "AWSWW",
+              "action": "GET"
+            }
+          },
+          "relationship": "BUSINESS"
+        }
+      ]
+    },
+    {
+      "customerId": "201a",
+      "name": {
+        "first": "first",
+        "middle": "middle",
+        "last": "last",
+        "suffix": "suffix",
+        "prefix": "prefix",
+        "company": "company"
+      },
+      "dateOfBirth": "2003-06-02T00:00:00.000+00:00",
+      "taxId": "taxId",
+      "governmentId": "governmentId",
+      "email": [
+        "abc@gmail.com",
+        "def@gmail.com"
+      ],
+      "addresses": [
+        {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalcode",
+          "country": "AL",
+          "type": "MAILING"
+        }
+      ],
+      "telephones": [
+        {
+          "type": "HOME",
+          "country": "AL",
+          "number": "12332"
+        }
+      ],
+      "accounts": [
+        {
+          "accountId": "105",
+          "links": {
+            "account": {
+              "href": "AWSWW",
+              "action": "GET"
+            }
+          },
+          "relationship": "BUSINESS"
+        }
+      ]
+    },
+    {
+      "customerId": "256Customer",
+      "name": {
+        "first": "first",
+        "middle": "middle",
+        "last": "last",
+        "suffix": "suffix",
+        "prefix": "prefix",
+        "company": "company"
+      },
+      "dateOfBirth": "1990-06-23T00:00:00.000+00:00",
+      "taxId": "taxId",
+      "governmentId": "governmentId",
+      "email": [
+        "abc@gmail.com",
+        "def@gmail.com"
+      ],
+      "addresses": [
+        {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalcode",
+          "country": "AL",
+          "type": "MAILING"
+        }
+      ],
+      "telephones": [
+        {
+          "type": "HOME",
+          "country": "AL",
+          "number": "12332"
+        }
+      ],
+      "accounts": [
+        {
+          "accountId": "105",
+          "links": {
+            "account": {
+              "href": "AWSWW",
+              "action": "GET"
+            }
+          },
+          "relationship": "BUSINESS"
+        }
+      ]
+    },
+    {
+      "customerId": "349",
+      "name": {
+        "first": "first",
+        "middle": "middle",
+        "last": "last",
+        "suffix": "suffix",
+        "prefix": "prefix",
+        "company": "company"
+      },
+      "dateOfBirth": "2002-08-21T00:00:00.000+00:00",
+      "taxId": "taxId",
+      "governmentId": "governmentId",
+      "email": [
+        "abc@gmailcom",
+        "def@gmail.com"
+      ],
+      "addresses": [
+        {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalcode",
+          "country": "AL",
+          "type": "MAILING"
+        }
+      ],
+      "telephones": [
+        {
+          "type": "HOME",
+          "country": "AL",
+          "number": "12332"
+        }
+      ],
+      "accounts": [
+        {
+          "accountId": "202",
+          "links": {
+            "account": {
+              "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+              "action": "GET"
+            }
+          },
+          "relationship": "BUSINESS"
+        }
+      ]
+    },
+    {
+      "customerId": "350",
+      "name": {
+        "first": "first",
+        "middle": "middle",
+        "last": "last",
+        "suffix": "suffix",
+        "prefix": "prefix",
+        "company": "company"
+      },
+      "dateOfBirth": "2003-08-21T00:00:00.000+00:00",
+      "taxId": "taxId",
+      "governmentId": "governmentId",
+      "email": [
+        "abc@gmailcom",
+        "def@gmail.com"
+      ],
+      "addresses": [
+        {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalcode",
+          "country": "AL",
+          "type": "MAILING"
+        }
+      ],
+      "telephones": [
+        {
+          "type": "HOME",
+          "country": "AL",
+          "number": "12332"
+        }
+      ],
+      "accounts": [
+        {
+          "accountId": "350",
+          "links": {
+            "account": {
+              "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+              "action": "GET"
+            }
+          },
+          "relationship": "BUSINESS"
+        }
+      ]
+    },
+    {
+      "customerId": "Customer10",
+      "name": {
+        "first": "first",
+        "middle": "middle",
+        "last": "last",
+        "suffix": "suffix",
+        "prefix": "prefix",
+        "company": "company"
+      },
+      "dateOfBirth": "2000-06-23T00:00:00.000+00:00",
+      "taxId": "taxId",
+      "governmentId": "governmentId",
+      "email": [
+        "def@gmail.com"
+      ],
+      "addresses": [
+        {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalcode",
+          "country": "AL",
+          "type": "MAILING"
+        }
+      ],
+      "telephones": [
+        {
+          "type": "HOME",
+          "country": "AL",
+          "number": "12332"
+        }
+      ],
+      "accounts": [
+        {
+          "accountId": "105",
+          "links": {
+            "account": {
+              "href": "AWSWW",
+              "action": "GET"
+            }
+          },
+          "relationship": "BUSINESS"
+        }
+      ]
+    }
+  ]
+}

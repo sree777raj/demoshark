@@ -1,0 +1,41 @@
+package com.fdx.api.model51.modelimpl;
+
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fdx.common.exception.FDXException;
+
+/**
+ * The type of PolicyProduct
+ */
+public enum PolicyProductType {
+
+  FIXED("FIXED"),
+
+  VARIABLE("VARIABLE");
+
+  private String value;
+
+  PolicyProductType(String value) {
+    this.value = value;
+  }
+
+  @JsonValue
+  public String getValue() {
+    return value;
+  }
+
+  @Override
+  public String toString() {
+    return String.valueOf(value);
+  }
+
+  @JsonCreator
+  public static PolicyProductType fromValue(String value) {
+    for (PolicyProductType b : PolicyProductType.values()) {
+      if (b.value.equals(value)) {
+        return b;
+      }
+    }
+    throw new IllegalArgumentException(new FDXException("Unexpected value '" + value + "'",401));
+  }
+}

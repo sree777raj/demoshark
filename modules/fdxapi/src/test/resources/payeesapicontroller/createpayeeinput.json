@@ -1,0 +1,30 @@
+{
+  "merchant": {
+    "displayName": "payee test",
+    "name": {
+      "first": "Test",
+      "last": "engg",
+      "suffix": "suffix",
+      "prefix": "prefix",
+      "company": "prakat"
+    },
+    "address": {
+      "line1": "line6",
+      "line3": "line3",
+      "city": "city",
+      "state": "state",
+      "postalCode": "postalcode",
+      "country": "AL",
+      "type": "MAILING"
+    },
+    "phone": {
+      "type": "FAX",
+      "country": "AR",
+      "number": "12332"
+    },
+    "merchantAccountIds": [
+      "12",
+      "12"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "recurringPaymentId": "RECURRINGPAYMENT-4",
+  "frequency": "WEEKLY",
+  "duration": {
+    "type": "NOEND"
+  },
+  "fromAccountId": "350",
+  "toPayeeId": "PAYEE-1",
+  "amount": 1.00,
+  "merchantAccountId": "55a",
+  "dueDate": "2023-02-04",
+  "recurringPaymentId": "RECURRINGPAYMENT-4",
+  "status": "SCHEDULED"
+}

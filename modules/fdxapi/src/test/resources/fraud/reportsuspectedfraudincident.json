@@ -1,0 +1,20 @@
+{
+  "type": "ACCOUNT_TAKEOVER",
+  "incidentId": "0a318518-ca16-4e66-be76-865a632ea777",
+  "reason": "User submitted identity data did not match account",
+  "reporter": {
+    "name": "XYZ Inc",
+    "type": "DATA_ACCESS_PLATFORM",
+    "homeUri": "http://example.com",
+    "logoUri": "http://example.com",
+    "registry": "FDX",
+    "registeredEntityName": "XYZ",
+    "registeredEntityId": "xyz1234"
+  },
+  "fiAttributes": [
+    {
+      "name": "INITIATOR",
+      "value": "INDIVIDUAL"
+    }
+  ]
+}

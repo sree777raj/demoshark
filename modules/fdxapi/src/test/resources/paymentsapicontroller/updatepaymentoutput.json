@@ -1,0 +1,9 @@
+{
+  "amount": 1.0,
+  "topayeeid": "PAYEE-3",
+  "paymentid": "PAYMENT-1",
+  "fromaccountid": "251",
+  "duedate": "2022-12-29",
+  "merchantaccountid": "300",
+  "status": "SCHEDULED"
+}

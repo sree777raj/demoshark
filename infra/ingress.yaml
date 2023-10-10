@@ -1,0 +1,12 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ridev-ing
+  annotations:
+    cloud.google.com/load-balancer-type: "Internal"
+spec:
+  defaultBackend:
+    service:
+      name: ridev-svc
+      port:
+        number: 8080

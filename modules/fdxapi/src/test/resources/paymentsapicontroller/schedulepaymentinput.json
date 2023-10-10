@@ -1,0 +1,7 @@
+{
+  "fromAccountId":"349",
+  "toPayeeId":"PAYEE-1",
+  "amount":1,
+  "merchantAccountId":"merchantAccountId-1",
+  "dueDate":"2022-12-12"
+}

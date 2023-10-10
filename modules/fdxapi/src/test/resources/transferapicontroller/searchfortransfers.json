@@ -1,0 +1,21 @@
+[
+  {
+    "transferId": "transfer77",
+    "fromAccountId": "349",
+    "toAccountId": "350",
+    "amount": 5.0,
+    "memo": "memo",
+    "paymentDetails": {
+      "paymentDetailsId": 1,
+      "principalAmount": 1.12,
+      "interestAmount": 1.12,
+      "insuranceAmount": 1.12,
+      "escrowAmount": 1.12,
+      "pmiAmount": 1.12,
+      "feesAmount": 1.12
+    },
+    "referenceId": "reference_transfer77",
+    "status": "PROCESSED",
+    "transferTime": "2023-01-10"
+  }
+]

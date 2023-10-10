@@ -1,0 +1,420 @@
+{
+  "page": {
+    "nextOffset": "1",
+    "totalElements": 200
+  },
+  "links": {
+    "next": {
+      "href": "https://tdm-developer.financialdataexchange.org/fdxapi/recipients?offset=1&limit=10",
+      "action": "GET"
+    }
+  },
+  "recipients": [
+    {
+      "recipient_id": "Ganishas",
+      "client_name": "My Example Client test",
+      "redirect_uris": [
+        "https://partner.example/callback"
+      ],
+      "contacts": [
+        "support@example.net"
+      ],
+      "scope": "ACCOUNT_DETAILED TRANSACTIONS INVESTMENTS",
+      "duration_type": [
+        "PERSISTENT",
+        "TIME_BOUND"
+      ],
+      "duration_period": 365,
+      "lookback_period": 365,
+      "registry_references": [
+        {
+          "registered_entity_name": "Official recipient name",
+          "registered_entity_id": "4HCHXIURY78NNH6JH",
+          "registry": "GLEIF"
+        }
+      ],
+      "intermediaries": [
+        {
+          "registry_references": [
+            {
+              "registered_entity_name": "Service Provider listed company Name",
+              "registered_entity_id": "9LUQNDG778LI9D1",
+              "registry": "GLEIF"
+            }
+          ],
+          "logo_uri": "https://sub-partner-one.example/logo.png",
+          "contacts": [
+            "support@sub-partner-one.com"
+          ]
+        },
+        {
+          "registry_references": [
+            {
+              "registered_entity_name": "Data Access Platform listed company Name"
+            }
+          ],
+          "name": "Data Access Platform Name",
+          "description": "Data Access Platform specializing in servicing permissioned data sharing for Data Recipients",
+          "uri": "https://partner.example/",
+          "logo_uri": "https://partner.example/logo.png",
+          "contacts": [
+            "support@partner.com"
+          ]
+        }
+      ]
+    },
+    {
+      "recipient_id": "slZuccYJrT6osnMnFtjk3QFMFxHYJLMZ",
+      "client_name": "new test012",
+      "description": "Appreg check test app1",
+      "redirect_uris": [
+        "https://partner.example/callback"
+      ],
+      "logo_uri": "example.com",
+      "client_uri": "example.com",
+      "scope": "ALL",
+      "duration_type": [
+        "PERSISTENT",
+        "TIME_BOUND"
+      ],
+      "duration_period": 365,
+      "lookback_period": 10,
+      "registry_references": [
+        {
+          "registered_entity_name": "test",
+          "registered_entity_id": "test",
+          "registry": "ICANN"
+        },
+        {
+          "registered_entity_name": "test1",
+          "registered_entity_id": "test1",
+          "registry": "PRIVATE"
+        }
+      ],
+      "intermediaries": [
+        {
+          "registry_references": [
+            {
+              "registered_entity_name": "new",
+              "registered_entity_id": "newid1",
+              "registry": "PRIVATE"
+            },
+            {
+              "registered_entity_name": "test",
+              "registered_entity_id": "jhjh",
+              "registry": "PRIVATE"
+            }
+          ],
+          "contacts": [
+            "test1@prakat.in"
+          ]
+        }
+      ]
+    },
+    {
+      "recipient_id": "BWZyaHGjB1AGyfkkoWhc0k8WdY6od2nO",
+      "client_name": "ManageMoney",
+      "description": "Tracks your expenses and places them in budget categories",
+      "redirect_uris": [
+        "https://partner.example/callback"
+      ],
+      "logo_uri": "https://financialdataexchange.org/",
+      "client_uri": "https://financialdataexchange.org/abc",
+      "contacts": [
+        "managemoney@gmail.com"
+      ],
+      "scope": "ALL",
+      "duration_type": [
+        "TIME_BOUND"
+      ],
+      "duration_period": 365,
+      "lookback_period": 365,
+      "registry_references": [
+        {
+          "registry": "PRIVATE"
+        }
+      ],
+      "intermediaries": [
+        {
+          "registry_references": [
+            {
+              "registry": "PRIVATE"
+            }
+          ],
+          "contacts": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "recipient_id": "6cUCFwOJhtSWwX6zDvG5C5BtXkqTiB0u",
+      "client_name": "Auto app30",
+      "redirect_uris": [
+        "https://partner.example/callback"
+      ],
+      "scope": "ALL",
+      "duration_type": [
+        "PERSISTENT"
+      ],
+      "duration_period": 365,
+      "registry_references": [
+        {
+          "registry": "PRIVATE"
+        }
+      ],
+      "intermediaries": [
+        {
+          "registry_references": [
+            {
+              "registry": "PRIVATE"
+            }
+          ],
+          "contacts": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "recipient_id": "auth_admin",
+      "client_name": "My Example Client",
+      "description": "Recipient Application servicing financial use case requiring permissioned data sharing",
+      "redirect_uris": [
+        "http://127.0.0.1:8080/authorized"
+      ],
+      "logo_uri": "https://client.example.org/logo.png",
+      "client_uri": "https://example.net/",
+      "contacts": [
+        "support@example.net"
+      ],
+      "scope": "ALL",
+      "duration_type": [
+        "PERSISTENT",
+        "TIME_BOUND"
+      ],
+      "duration_period": 365,
+      "lookback_period": 365,
+      "registry_references": [
+        {
+          "registered_entity_name": "Official recipient name",
+          "registered_entity_id": "4HCHXIURY78NNH6JH",
+          "registry": "GLEIF"
+        }
+      ],
+      "intermediaries": [
+        {
+          "registry_references": [
+            {
+              "registered_entity_name": "Data Access Platform listed company Name",
+              "registered_entity_id": "JJH7776512TGMEJSG",
+              "registry": "FDX"
+            }
+          ],
+          "name": "Data Access Platform Name",
+          "description": "Data Access Platform specializing in servicing permissioned data sharing for Data Recipients",
+          "uri": "https://partner.example/",
+          "logo_uri": "https://partner.example/logo.png",
+          "contacts": [
+            "support@partner.com"
+          ]
+        },
+        {
+          "registry_references": [
+            {
+              "registered_entity_name": "Service Provider listed company Name",
+              "registered_entity_id": "9LUQNDG778LI9D1",
+              "registry": "GLEIF"
+            }
+          ],
+          "name": "Digital Service Provider Name",
+          "description": "Digital Service Provider to the Recipient",
+          "uri": "https://sub-partner-one.example/",
+          "logo_uri": "https://sub-partner-one.example/logo.png",
+          "contacts": [
+            "support@sub-partner-one.com"
+          ]
+        }
+      ]
+    },
+    {
+      "recipient_id": "App5Z9CYEQsL4diIgtFOYFdWv7PjazBN",
+      "client_name": "test product",
+      "description": "test",
+      "redirect_uris": [
+        "https://partner.example/callback"
+      ],
+      "scope": "ALL",
+      "duration_type": [
+        "PERSISTENT"
+      ],
+      "duration_period": 365,
+      "registry_references": [
+        {
+          "registry": "PRIVATE"
+        }
+      ],
+      "intermediaries": [
+        {
+          "registry_references": [
+            {
+              "registry": "PRIVATE"
+            }
+          ],
+          "contacts": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "recipient_id": "5Yxl5AwF86TPm6uO6GJQRd5xUEwInNmG",
+      "client_name": "ManageMoneyZ",
+      "description": "Tracks your expenses and places them in budget categories",
+      "redirect_uris": [
+        "https://partner.example/callback"
+      ],
+      "logo_uri": "https://financialdataexchange.org/",
+      "client_uri": "https://financialdataexchange.org/abc",
+      "contacts": [
+        "managemoney@gmail.com"
+      ],
+      "scope": "ALL",
+      "duration_type": [
+        "TIME_BOUND"
+      ],
+      "duration_period": 365,
+      "lookback_period": 365,
+      "registry_references": [
+        {
+          "registry": "PRIVATE"
+        }
+      ],
+      "intermediaries": [
+        {
+          "registry_references": [
+            {
+              "registered_entity_name": "Prakat",
+              "registered_entity_id": "Pr24e55Hisvhg-Ynnbh",
+              "registry": "FDX"
+            }
+          ],
+          "name": "Prakat solutions",
+          "description": " Provides end-to-end technology services across various industries",
+          "uri": "https://www.prakat.com/",
+          "logo_uri": "https://www.prakat.com/logo",
+          "contacts": [
+            "info@prakat.com"
+          ]
+        }
+      ]
+    },
+    {
+      "recipient_id": "DIGLGUusVM86DEGnjl0z2H1nKVC5BAUG",
+      "client_name": "new test014",
+      "description": "Appreg check test app1",
+      "redirect_uris": [
+        "https://partner.example/callback"
+      ],
+      "logo_uri": "example.com",
+      "client_uri": "example.com",
+      "scope": "ALL",
+      "duration_type": [
+        "PERSISTENT",
+        "TIME_BOUND"
+      ],
+      "duration_period": 365,
+      "lookback_period": 10,
+      "registry_references": [
+        {
+          "registered_entity_name": "test",
+          "registered_entity_id": "test",
+          "registry": "ICANN"
+        },
+        {
+          "registered_entity_name": "test1",
+          "registered_entity_id": "test1",
+          "registry": "PRIVATE"
+        }
+      ],
+      "intermediaries": [
+        {
+          "registry_references": [
+            {
+              "registered_entity_name": "new",
+              "registered_entity_id": "newid1",
+              "registry": "PRIVATE"
+            },
+            {
+              "registered_entity_name": "test",
+              "registered_entity_id": "jhjh",
+              "registry": "PRIVATE"
+            }
+          ],
+          "contacts": [
+            "test1@prakat.in"
+          ]
+        }
+      ]
+    },
+    {
+      "recipient_id": "AVAjx7VG0h1JzE1fcE1cK5bzx8iZihXx",
+      "client_name": "ManageMoney2",
+      "redirect_uris": [
+        "https://partner.example/callback"
+      ],
+      "scope": "ALL",
+      "duration_type": [
+        "PERSISTENT"
+      ],
+      "duration_period": 85,
+      "registry_references": [
+        {
+          "registry": "PRIVATE"
+        }
+      ],
+      "intermediaries": [
+        {
+          "registry_references": [
+            {
+              "registry": "PRIVATE"
+            }
+          ],
+          "contacts": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "recipient_id": "Nq3z604GGfgo0wKIGAHJeOazaNuLyImk",
+      "client_name": "Manage Money2",
+      "description": "App to manage finance",
+      "redirect_uris": [
+        "https://partner.example/callback"
+      ],
+      "scope": "ALL",
+      "duration_type": [
+        "PERSISTENT"
+      ],
+      "duration_period": 365,
+      "registry_references": [
+        {
+          "registry": "PRIVATE"
+        }
+      ],
+      "intermediaries": [
+        {
+          "registry_references": [
+            {
+              "registry": "PRIVATE"
+            }
+          ],
+          "contacts": [
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

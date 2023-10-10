@@ -1,0 +1,46 @@
+{
+  "customerId": "105a",
+  "name": {
+    "first": "test",
+    "last": "customer",
+    "company": "company"
+  },
+  "dateOfBirth": "2021-06-23T00:00:00.000+00:00",
+  "taxId": "taxId",
+  "governmentId": "governmentId",
+  "email": [
+    "test@gmail.com",
+    "def@gmail.com"
+  ],
+  "addresses": [
+    {
+      "line1": "line1",
+      "line2": "line2",
+      "line3": "line3",
+      "city": "city",
+      "state": "state",
+      "postalCode": "postalcode",
+      "country": "AL",
+      "type": "MAILING"
+    }
+  ],
+  "telephones": [
+    {
+      "type": "HOME",
+      "country": "AL",
+      "number": "12332"
+    }
+  ],
+  "accounts": [
+    {
+      "accountId": "254",
+      "links": {
+        "account": {
+          "href": "AWSWW",
+          "action": "GET"
+        }
+      },
+      "relationship": "BUSINESS"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "recurringPaymentId": "RECURRINGPAYMENT-1",
+  "frequency": "TWICEMONTHLY",
+  "duration": {
+    "type": "NUMBEROFTIMES",
+    "numberOfTimes": 100.00
+  },
+  "fromAccountId": "251",
+  "toPayeeId": "PAYEE-3",
+  "amount": 10.14,
+  "merchantAccountId": "400",
+  "dueDate": "2022-12-31",
+  "recurringPaymentId": "RECURRINGPAYMENT-1",
+  "status": "SCHEDULED"
+}

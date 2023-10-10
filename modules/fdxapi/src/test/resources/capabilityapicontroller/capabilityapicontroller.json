@@ -1,0 +1,14 @@
+{
+  "allowedConnections": 2,
+  "activeConnections": 2,
+  "supportsCustomer": true,
+  "supportsAccounts": true,
+  "supportsTransactions": true,
+  "supportsStatements": true,
+  "supportsImage": true,
+  "supportsBillPay": true,
+  "supportsTransfer": true,
+  "messageFormat": "JSON",
+  "transferCutOffTime": "2020-07-30T00:00:00.000+00:00",
+  "billPayCutOffTime": "2020-07-30T00:00:00.000+00:00"
+}

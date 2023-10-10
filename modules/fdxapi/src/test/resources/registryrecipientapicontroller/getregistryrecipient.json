@@ -1,0 +1,53 @@
+{
+  "recipient_id": "Ganishas",
+  "client_name": "My Example Client test",
+  "redirect_uris": [
+    "https://partner.example/callback"
+  ],
+  "contacts": [
+    "support@example.net"
+  ],
+  "scope": "ACCOUNT_DETAILED TRANSACTIONS INVESTMENTS",
+  "duration_type": [
+    "PERSISTENT",
+    "TIME_BOUND"
+  ],
+  "duration_period": 365,
+  "lookback_period": 365,
+  "registry_references": [
+    {
+      "registered_entity_name": "Official recipient name",
+      "registered_entity_id": "4HCHXIURY78NNH6JH",
+      "registry": "GLEIF"
+    }
+  ],
+  "intermediaries": [
+    {
+      "registry_references": [
+        {
+          "registered_entity_name": "Service Provider listed company Name",
+          "registered_entity_id": "9LUQNDG778LI9D1",
+          "registry": "GLEIF"
+        }
+      ],
+      "logo_uri": "https://sub-partner-one.example/logo.png",
+      "contacts": [
+        "support@sub-partner-one.com"
+      ]
+    },
+    {
+      "registry_references": [
+        {
+          "registered_entity_name": "Data Access Platform listed company Name"
+        }
+      ],
+      "name": "Data Access Platform Name",
+      "description": "Data Access Platform specializing in servicing permissioned data sharing for Data Recipients",
+      "uri": "https://partner.example/",
+      "logo_uri": "https://partner.example/logo.png",
+      "contacts": [
+        "support@partner.com"
+      ]
+    }
+  ]
+}

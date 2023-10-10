@@ -1,0 +1,14 @@
+{
+  "recurringPaymentId": "RECURRINGPAYMENT-2",
+  "frequency": "TWICEMONTHLY",
+  "duration": {
+    "type": "NOEND"
+  },
+  "fromAccountId": "252",
+  "toPayeeId": "PAYEE-2",
+  "amount": 10.14,
+  "merchantAccountId": "401",
+  "dueDate": "2022-12-31",
+  "recurringPaymentId": "RECURRINGPAYMENT-2",
+  "status": "SCHEDULED"
+}

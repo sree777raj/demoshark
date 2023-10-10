@@ -1,0 +1,81 @@
+{
+  "page": {
+    "totalElements": 7
+  },
+  "updates": {
+    "nextUpdateId": "PAYMENT-1"
+  },
+  "links": {
+    "updates": {
+      "href": "/payments?updatedSince=PAYMENT-1"
+    }
+  },
+  "payments": [
+    {
+      "paymentId": "PAYMENT-1",
+      "fromAccountId": "251",
+      "toPayeeId": "PAYEE-1",
+      "amount": 10.10,
+      "merchantAccountId": "300",
+      "dueDate": "2022-12-30",
+      "status": "SCHEDULED"
+    },
+    {
+      "paymentId": "PAYMENT-2",
+      "fromAccountId": "252",
+      "toPayeeId": "PAYEE-2",
+      "amount": 10.10,
+      "merchantAccountId": "301",
+      "dueDate": "2022-12-30",
+      "status": "SCHEDULED"
+    },
+    {
+      "paymentId": "PAYMENT-3",
+      "fromAccountId": "349",
+      "toPayeeId": "PAYEE-3",
+      "amount": 5.15,
+      "merchantAccountId": "302",
+      "dueDate": "2022-12-30",
+      "status": "SCHEDULED"
+    },
+    {
+      "paymentId": "PAYMENT-4",
+      "fromAccountId": "350",
+      "toPayeeId": "PAYEE-1",
+      "amount": 5.20,
+      "merchantAccountId": "303",
+      "dueDate": "2022-12-30",
+      "status": "SCHEDULED"
+    },
+    {
+      "paymentId": "PAYMENT-5",
+      "fromAccountId": "251",
+      "toPayeeId": "PAYEE-1",
+      "amount": 10.14,
+      "merchantAccountId": "400",
+      "dueDate": "2022-12-30",
+      "recurringPaymentId": "RECURRINGPAYMENT-1",
+      "status": "SCHEDULED"
+    },
+    {
+      "paymentId": "PAYMENT-6",
+      "fromAccountId": "252",
+      "toPayeeId": "PAYEE-2",
+      "amount": 10.14,
+      "merchantAccountId": "401",
+      "dueDate": "2022-12-30",
+      "recurringPaymentId": "RECURRINGPAYMENT-2",
+      "status": "SCHEDULED"
+    },
+    {
+      "paymentId": "PAYMENT-7",
+      "fromAccountId": "349",
+      "toPayeeId": "PAYEE-3",
+      "amount": 50.14,
+      "merchantAccountId": "401",
+      "dueDate": "2022-12-30",
+      "recurringPaymentId": "RECURRINGPAYMENT-3",
+      "status": "SCHEDULED"
+    }
+  ]
+}

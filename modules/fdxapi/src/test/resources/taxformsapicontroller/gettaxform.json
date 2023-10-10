@@ -1,0 +1,852 @@
+{
+  "forms": [
+    {
+      "businessIncomeStatement": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "TaxTest2018",
+        "taxFormDate": "2021-08-19",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "BusinessIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        },
+        "businessName": "businessName",
+        "sales": 12.12,
+        "returns": 12.12,
+        "otherIncome": [
+          {
+            "description": "description",
+            "amount": 12.12
+          },
+          {
+            "description": "description",
+            "amount": 14.14
+          }
+        ],
+        "advertising": 12.12,
+        "carAndTruck": 12.12,
+        "commissions": 13.13,
+        "contractLabor": 14.14,
+        "depletion": 15.15,
+        "depreciation": 16.16,
+        "employeeBenefits": 17.12,
+        "insurance": 18.12,
+        "mortgageInterest": 13.13,
+        "otherInterest": 12.45,
+        "legal": 25.12,
+        "office": 12.32,
+        "pension": 21.32,
+        "equipmentRent": 21.23,
+        "otherRent": 21.45,
+        "repairs": 45.12,
+        "supplies": 42.12,
+        "taxes": 45.23,
+        "travel": 45.12,
+        "meals": 12.32,
+        "utilities": 13.13,
+        "wages": 21.32,
+        "otherExpenses": [
+          {
+            "description": "description",
+            "amount": 12.12
+          },
+          {
+            "description": "description",
+            "amount": 13.13
+          }
+        ],
+        "beginningInventory": 21.21,
+        "purchases": 21.32,
+        "costOfLabor": 54.21,
+        "materials": 13.14,
+        "otherCosts": [
+          {
+            "description": "description",
+            "amount": 12.12
+          },
+          {
+            "description": "description",
+            "amount": 13.13
+          }
+        ],
+        "endingInventory": 12.13,
+        "capitalExpenditures": [
+          {
+            "date": "2021-08-19",
+            "description": "description",
+            "amount": 13.13
+          }
+        ]
+      },
+      "farmIncomeStatement": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "FarmIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "256",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "13510",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        },
+        "cropOrActivity": "Crop",
+        "sales": 12.12,
+        "costOfItemsSold": 12.12,
+        "salesOfRaised": 12.12,
+        "coopDistributions": 12.13,
+        "agProgramPayments": 13.41,
+        "cccLoans": 13.13,
+        "cropInsuranceProceeds": 13.13,
+        "customHireIncome": 13.13,
+        "otherIncome": [
+          {
+            "description": "description",
+            "amount": 12.12
+          },
+          {
+            "description": "description",
+            "amount": 14.14
+          }
+        ],
+        "carAndTruck": 11.13,
+        "chemicals": 13.13,
+        "conservation": 13.13,
+        "customHireExpenses": 14.14,
+        "depreciation": 13.14,
+        "employeeBenefitPrograms": 15.12,
+        "feed": 13.42,
+        "fertilizers": 14.12,
+        "freight": 12.12,
+        "fuel": 41.41,
+        "insurance": 42.12,
+        "mortgageInterest": 12.12,
+        "otherInterest": 13.13,
+        "laborHired": 13.13,
+        "pension": 13.13,
+        "equipmentRent": 41.41,
+        "otherRent": 42.12,
+        "repairs": 12.12,
+        "seeds": 13.13,
+        "storage": 12.12,
+        "supplies": 12.13,
+        "taxes": 12.13,
+        "utilities": 13.13,
+        "veterinary": 12.12,
+        "otherExpenses": [
+          {
+            "description": "description",
+            "amount": 12.12
+          },
+          {
+            "description": "description",
+            "amount": 13.13
+          }
+        ],
+        "capitalExpenditures": [
+          {
+            "date": "2021-08-19",
+            "description": "description",
+            "amount": 13.13
+          },
+          {
+            "date": "2021-08-19",
+            "description": "description",
+            "amount": 13.13
+          }
+        ]
+      },
+      "farmRentalIncomeStatement": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "FarmRentalIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        },
+        "incomeFromProduction": 12.12,
+        "coopDistributions": 13.13,
+        "agProgramPayments": 12.12,
+        "cccLoans": 13.13,
+        "cropInsuranceProceeds": 14.14,
+        "otherIncome": [
+          {
+            "description": "description",
+            "amount": 12.12
+          },
+          {
+            "description": "description",
+            "amount": 14.14
+          }
+        ],
+        "carAndTruck": 12.12,
+        "chemicals": 12.12,
+        "conservation": 12.12,
+        "customHireExpenses": 12.12,
+        "depreciation": 12.12,
+        "employeeBenefitPrograms": 12.12,
+        "feed": 12.12,
+        "fertilizers": 12.12,
+        "freight": 12.12,
+        "fuel": 12.12,
+        "insurance": 12.12,
+        "mortgageInterest": 12.12,
+        "otherInterest": 12.12,
+        "laborHired": 12.12,
+        "pension": 12.12,
+        "equipmentRent": 12.12,
+        "otherRent": 12.12,
+        "repairs": 12.12,
+        "seeds": 12.12,
+        "storage": 12.12,
+        "supplies": 12.12,
+        "taxes": 12.12,
+        "utilities": 12.12,
+        "veterinary": 12.12,
+        "otherExpenses": [
+          {
+            "description": "description",
+            "amount": 12.12
+          },
+          {
+            "description": "description",
+            "amount": 13.13
+          }
+        ],
+        "capitalExpenditures": [
+          {
+            "date": "2021-08-19",
+            "description": "description",
+            "amount": 13.13
+          },
+          {
+            "date": "2021-08-19",
+            "description": "description",
+            "amount": 13.13
+          }
+        ]
+      },
+      "rentalIncomeStatement": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "RentalIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        },
+        "propertyAddress": {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalcode",
+          "country": "AL"
+        },
+        "rents": 12.12,
+        "advertising": 12.12,
+        "auto": 12.12,
+        "cleaning": 12.13,
+        "commissions": 13.41,
+        "insurance": 13.13,
+        "legal": 13.13,
+        "managementFees": 13.13,
+        "mortgageInterest": 11.13,
+        "otherInterest": 13.13,
+        "repairs": 13.13,
+        "supplies": 14.14,
+        "taxes": 13.14,
+        "utilities": 15.12,
+        "depreciationExpense": 13.42,
+        "otherExpenses": [
+          {
+            "description": "description",
+            "amount": 12.12
+          },
+          {
+            "description": "description",
+            "amount": 13.13
+          }
+        ],
+        "capitalExpenditures": [
+          {
+            "date": "2021-08-19",
+            "description": "description",
+            "amount": 13.13
+          },
+          {
+            "date": "2021-08-19",
+            "description": "description",
+            "amount": 13.13
+          }
+        ]
+      },
+      "royaltyIncomeStatement": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "RoyaltyIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        },
+        "propertyAddress": {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalcode",
+          "country": "AL"
+        },
+        "royalties": 12.12,
+        "advertising": 12.12,
+        "auto": 12.12,
+        "cleaning": 12.13,
+        "commissions": 13.41,
+        "insurance": 13.13,
+        "legal": 13.13,
+        "managementFees": 13.13,
+        "mortgageInterest": 11.13,
+        "otherInterest": 13.13,
+        "repairs": 13.13,
+        "supplies": 14.14,
+        "taxes": 13.14,
+        "utilities": 15.12,
+        "depletionExpense": 13.42,
+        "otherExpenses": [
+          {
+            "description": "description",
+            "amount": 12.12
+          },
+          {
+            "description": "description",
+            "amount": 13.13
+          }
+        ],
+        "capitalExpenditures": [
+          {
+            "date": "2021-08-19",
+            "description": "description",
+            "amount": 13.13
+          },
+          {
+            "date": "2021-08-19",
+            "description": "description",
+            "amount": 13.13
+          }
+        ]
+      },
+      "tax1041K1": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1041K1",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        },
+        "finalK1": true,
+        "amendedK1": false,
+        "fiscalYearBegin": "2021-08-07",
+        "fiscalYearEnd": "2021-08-07",
+        "trustTin": "trustTin",
+        "trustName": "trustName",
+        "form1041T": false,
+        "date1041T": "2021-08-07",
+        "final1041": false,
+        "beneficiaryTin": "beneficiaryTin",
+        "domestic": false,
+        "interestIncome": 13.14,
+        "ordinaryDividends": 15.12,
+        "qualifiedDividends": 13.42,
+        "netShortTermGain": 15.14,
+        "netLongTermGain": 14.15,
+        "gain28Rate": 12.15,
+        "unrecaptured1250Gain": 14.13,
+        "otherPortfolioIncome": 45.42,
+        "ordinaryBusinessIncome": 12.13,
+        "netRentalRealEstateIncome": 45.13,
+        "otherRentalIncome": 12.12,
+        "directlyApportionedDeductions": [
+          {
+            "code": "code",
+            "amount": 15.15
+          }
+        ],
+        "estateTaxDeduction": 12.13,
+        "finalYearDeductions": [
+          {
+            "code": "code",
+            "amount": 15.15
+          }
+        ],
+        "fiduciaryNameAddress": {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalcode",
+          "country": "AL",
+          "name1": "name1",
+          "name2": "name2"
+        },
+        "amtAdjustments": [
+          {
+            "code": "code",
+            "amount": 15.15
+          }
+        ],
+        "beneficiaryNameAddress": {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalcode",
+          "country": "AL",
+          "name1": "name1",
+          "name2": "name2"
+        },
+        "credits": [
+          {
+            "code": "code",
+            "amount": 15.15
+          }
+        ],
+        "otherInfo": [
+          {
+            "code": "code",
+            "amount": 15.15
+          }
+        ]
+      },
+      "tax1042S": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1042S",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        },
+        "formId": "formId",
+        "amended": true,
+        "amendmentNumber": 12,
+        "incomeTypeCode": "incomeTypeCode",
+        "grossIncome": 10.1,
+        "chapterIndicator": "chapterIndicator",
+        "ch3ExemptionCode": "ch3ExemptionCode",
+        "ch3TaxRate": 10.1,
+        "ch4ExemptionCode": "ch4ExemptionCode",
+        "ch4TaxRate": 10.1,
+        "withholdingAllowance": 10.1,
+        "netIncome": 10.1,
+        "federalTaxWithheld": 10.1,
+        "escrowProceduresApplied": true,
+        "subsequentYear": true,
+        "otherAgentsTaxWithheld": 10.1,
+        "recipientRepaidAmount": 10.1,
+        "totalTaxWithholdingCredit": 10.1,
+        "withholdingAgentTaxPaid": 10.1,
+        "withholdingAgent": {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalcode",
+          "country": "AL",
+          "name1": "name1",
+          "name2": "name2",
+          "agentTin": "agentTin",
+          "ch3StatusCode": "ch3StatusCode",
+          "ch4StatusCode": "ch4StatusCode",
+          "giin": "giin",
+          "countryCode": "countryCode",
+          "foreignTin": "foreignTin"
+        },
+        "recipient": {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalcode",
+          "country": "AL",
+          "name1": "name1",
+          "name2": "name2",
+          "agentTin": "agentTin",
+          "ch3StatusCode": "ch3StatusCode",
+          "ch4StatusCode": "ch4StatusCode",
+          "giin": "giin",
+          "countryCode": "countryCode",
+          "foreignTin": "foreignTin",
+          "lobCode": "lobCode",
+          "dateOfBirth": "2021-08-07"
+        },
+        "accountNumber": "accountNumber",
+        "primary": {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalcode",
+          "country": "AL",
+          "name1": "name1",
+          "name2": "name2",
+          "agentTin": "agentTin",
+          "ch3StatusCode": "ch3StatusCode",
+          "ch4StatusCode": "ch4StatusCode",
+          "giin": "giin",
+          "countryCode": "countryCode",
+          "foreignTin": "foreignTin"
+        },
+        "prorataBasisReporting": true,
+        "intermediary": {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalcode",
+          "country": "AL",
+          "name1": "name1",
+          "name2": "name2",
+          "agentTin": "agentTin",
+          "ch3StatusCode": "ch3StatusCode",
+          "ch4StatusCode": "ch4StatusCode",
+          "giin": "giin",
+          "countryCode": "countryCode",
+          "foreignTin": "foreignTin"
+        },
+        "payer": {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalcode",
+          "country": "AL",
+          "name1": "name1",
+          "name2": "name2",
+          "agentTin": "agentTin",
+          "ch3StatusCode": "ch3StatusCode",
+          "ch4StatusCode": "ch4StatusCode",
+          "giin": "giin",
+          "countryCode": "countryCode",
+          "foreignTin": "foreignTin"
+        },
+        "stateTaxWithholding": {
+          "stateTaxWithheld": 10.1,
+          "state": "state",
+          "stateTaxId": "stateTaxId",
+          "stateIncome": 10.1
+        }
+      },
+      "tax1065K1": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1065K1",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        },
+        "foreignPartner": true,
+        "fiscalYearBegin": "2021-08-07",
+        "fiscalYearEnd": "2021-08-07",
+        "finalK1": true,
+        "amendedK1": true,
+        "partnershipTin": "partnershipTin",
+        "partnershipNameAddress": {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalCode",
+          "country": "AD",
+          "name1": "name1",
+          "name2": "name2"
+        },
+        "irsCenter": "irsCenter",
+        "publiclyTraded": true,
+        "partnerTin": "partnerTin",
+        "partnerNameAddress": {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalCode",
+          "country": "AD",
+          "name1": "name1",
+          "name2": "name2"
+        },
+        "generalPartner": true,
+        "limitedPartner": false,
+        "domestic": true,
+        "foreingpartner": true,
+        "disregardedEntity": false,
+        "disregardedEntityTin": "disregardedEntityTin",
+        "disregardedEntityName": "disregardedEntityName",
+        "entityType": "entityType",
+        "retirementPlan": true,
+        "profitShareBegin": 10.1,
+        "profitShareEnd": 10.1,
+        "lossShareBegin": 10.1,
+        "lossShareEnd": 10.1,
+        "capitalShareBegin": 10.1,
+        "capitalShareEnd": 10.1,
+        "decreaseDueToSaleOrExchange": true,
+        "nonrecourseLiabilityShareBegin": 10.1,
+        "nonrecourseLiabilityShareEnd": 13.1,
+        "qualifiedLiabilityShareBegin": 10.1,
+        "qualifiedLiabilityShareEnd": 10.1,
+        "recourseLiabilityShareBegin": 10.1,
+        "recourseLiabilityShareEnd": 10.1,
+        "includesLowerTierLiability": true,
+        "capitalAccountBegin": 10.1,
+        "capitalAccountContributions": 10.1,
+        "capitalAccountIncrease": 10.1,
+        "capitalAccountOther": 10.1,
+        "capitalAccountWithdrawals": 10.1,
+        "capitalAccountEnd": 10.1,
+        "bookTax": true,
+        "bookGaap": true,
+        "book704b": true,
+        "bookOther": true,
+        "bookOtherExplain": "bookOtherExplain",
+        "builtInGain": true,
+        "unrecognizedSection704Begin": 10.1,
+        "unrecognizedSection704End": 10.1,
+        "ordinaryIncome": 10.1,
+        "netRentalRealEstateIncome": 10.1,
+        "otherRentalIncome": 10.1,
+        "guaranteedPaymentServices": 10.1,
+        "guaranteedPaymentCapital": 10.1,
+        "guaranteedPayment": 10.1,
+        "interestIncome": 10.1,
+        "ordinaryDividends": 10.1,
+        "qualifiedDividends": 10.1,
+        "dividendEquivalents": 10.1,
+        "royalties": 10.1,
+        "netShortTermGain": 10.1,
+        "netLongTermGain": 10.1,
+        "collectiblesGain": 10.1,
+        "unrecaptured1250Gain": 10.1,
+        "net1231Gain": 10.1,
+        "otherIncome": [
+          {
+            "code": "code",
+            "amount": 10.1
+          }
+        ],
+        "section179Deduction": 10.1,
+        "otherDeductions": [
+          {
+            "code": "code",
+            "amount": 10.1
+          }
+        ],
+        "selfEmployment": [
+          {
+            "code": "code",
+            "amount": 10.1
+          }
+        ],
+        "credits": [
+          {
+            "code": "code",
+            "amount": 10.1
+          }
+        ],
+        "foreignCountry": "foreignCountry",
+        "foreignTransactions": [
+          {
+            "code": "code",
+            "amount": 10.1
+          }
+        ],
+        "amtItems": [
+          {
+            "code": "code",
+            "amount": 10.1
+          }
+        ],
+        "taxExemptIncome": [
+          {
+            "code": "code",
+            "amount": 10.1
+          }
+        ],
+        "distributions": [
+          {
+            "code": "code",
+            "amount": 10.1
+          }
+        ],
+        "otherInfo": [
+          {
+            "code": "code",
+            "amount": 10.1
+          }
+        ],
+        "multipleAtRiskActivities": true,
+        "multiplePassiveActivities": false
+      },
+      "taxRefundDirectDeposit": {
+        "institutionName": "finance",
+        "rtn": "rtn",
+        "accountNumber": "201",
+        "accountNickName": "accountnumber"
+      }
+    }
+  ]
+}

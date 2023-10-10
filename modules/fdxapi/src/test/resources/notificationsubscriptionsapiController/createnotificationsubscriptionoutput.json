@@ -1,0 +1,16 @@
+{
+  "subscriptionId": "GUID-SubscriptionId1",
+  "type": "CONSENT_REVOKED",
+  "category": "CONSENT",
+  "callbackUrl": "https://abc.com/notification",
+  "effectiveDate": "2021-11-24",
+  "subscriber": {
+    "registeredEntityId": "ABC123",
+    "name": "ABC Inc",
+    "type": "DATA_ACCESS_PLATFORM",
+    "homeUri": "https://abc.com/logo",
+    "logoUri": "https://abc.com/logo",
+    "registry": "FDX",
+    "registeredEntityName": "ABC"
+  }
+}

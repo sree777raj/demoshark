@@ -1,0 +1,274 @@
+{
+  "insuranceAccount": {
+    "accountId": "002",
+    "accountType": "401A",
+    "accountNumber": "207",
+    "accountNumberDisplay": "2121",
+    "productName": "newsample",
+    "nickname": "207",
+    "status": "OPEN",
+    "description": "sdsa",
+    "currency": {
+      "currencyRate": 5.64,
+      "currencyCode": "BAM",
+      "originalCurrencyCode": "BAM"
+    },
+    "fiAttributes": [
+      {
+        "name": "21",
+        "value": "21"
+      },
+      {
+        "name": "22",
+        "value": "22"
+      }
+    ],
+    "parentAccountId": "000AS105",
+    "lineOfBusiness": "consumer",
+    "routingTransitNumber": "207",
+    "balanceType": "ASSET",
+    "contact": {
+      "holders": [
+        {
+          "customerId": "00T105",
+          "name": {
+            "first": "first",
+            "middle": "middle",
+            "last": "last",
+            "suffix": "suffix",
+            "prefix": "prefix",
+            "company": "company"
+          },
+          "dateOfBirth": "1990-08-23T00:00:00.000+00:00",
+          "taxId": "123Y",
+          "governmentId": "E231",
+          "email": [
+            "abc@gmailcom",
+            "def@gmail.com"
+          ],
+          "addresses": [
+            {
+              "line1": "line1",
+              "line2": "line2",
+              "line3": "line3",
+              "city": "city",
+              "state": "state",
+              "postalCode": "postalcode",
+              "country": "AL",
+              "type": "MAILING"
+            }
+          ],
+          "telephones": [
+            {
+              "type": "HOME",
+              "country": "AL",
+              "number": "12332"
+            }
+          ],
+          "accounts": [
+            {
+              "accountId": "002",
+              "links": {
+                "account": {
+                  "href": "AWSWW",
+                  "action": "GET"
+                }
+              },
+              "relationship": "BUSINESS"
+            }
+          ],
+          "relationship": "BUSINESS"
+        }
+      ],
+      "emails": [
+        "abc@gmailcom",
+        "def@gmail.com"
+      ],
+      "addresses": [
+        {
+          "line1": "line1",
+          "line2": "line2",
+          "line3": "line3",
+          "city": "city",
+          "state": "state",
+          "postalCode": "postalcode",
+          "country": "AL",
+          "type": "MAILING"
+        }
+      ],
+      "telephones": [
+        {
+          "type": "HOME",
+          "country": "AL",
+          "number": "12332"
+        }
+      ]
+    },
+    "interestRate": 4.00,
+    "interestRateType": "VARIABLE",
+    "interestRateAsOf": "2021-09-26T00:00:00.000+00:00",
+    "priorInterestRate": 4.00,
+    "transferIn": true,
+    "transferOut": true,
+    "billPayStatus": "ACTIVE",
+    "micrNumber": "123",
+    "lastActivityDate": "2021-06-22T18:30:00.000+00:00",
+    "rewardProgramId": "12",
+    "transactionsIncluded": false,
+    "accountCategory": "INSURANCE_ACCOUNT",
+    "policyPremium": 12.12,
+    "policyPremiumTerm": "MONTHLY",
+    "policyStartDate": "2021-10-02T00:00:00.000+00:00",
+    "policyEndDate": "2025-10-02T00:00:00.000+00:00",
+    "policyCoverageAmount": 120.12,
+    "transactions": [
+      {
+        "accountId": "002",
+        "transactionId": "409",
+        "referenceTransactionId": "101",
+        "postedTimestamp": "2021-10-02T00:00:00.000+00:00",
+        "transactionTimestamp": "2021-10-02T00:00:00.000+00:00",
+        "description": "sdasd",
+        "memo": "asdas",
+        "debitCreditMemo": "CREDIT",
+        "category": "9",
+        "subCategory": "asdas",
+        "reference": "121",
+        "status": "AUTHORIZATION",
+        "amount": 1235.00,
+        "foreignAmount": 1200.34,
+        "foreignCurrency": "AMD",
+        "imageIds": [
+          "35",
+          "36"
+        ],
+        "lineItem": [
+          {
+            "description": "ew",
+            "amount": 1200.12,
+            "checkNumber": 12,
+            "memo": "memo",
+            "reference": "reference",
+            "imageIds": [
+              "7",
+              "8"
+            ],
+            "links": {
+              "image": [
+                {
+                  "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+                  "action": "GET"
+                }
+              ]
+            }
+          }
+        ],
+        "fiAttributes": [
+          {
+            "name": "207",
+            "value": "212"
+          },
+          {
+            "name": "235",
+            "value": "784"
+          }
+        ],
+        "links": {
+          "image": [
+            {
+              "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+              "action": "GET"
+            }
+          ]
+        },
+        "reward": {
+          "categoryId": "assdas",
+          "accrued": 12.12,
+          "adjusted": 12.12
+        },
+        "transactionType": "ADJUSTMENT"
+      },
+      {
+        "accountId": "002",
+        "transactionId": "410",
+        "referenceTransactionId": "101",
+        "postedTimestamp": "2021-10-02T00:00:00.000+00:00",
+        "transactionTimestamp": "2021-10-02T00:00:00.000+00:00",
+        "description": "sdasd",
+        "memo": "asdas",
+        "debitCreditMemo": "CREDIT",
+        "category": "10",
+        "subCategory": "asdas",
+        "reference": "121",
+        "status": "AUTHORIZATION",
+        "amount": 1235.00,
+        "foreignAmount": 120.34,
+        "foreignCurrency": "AMD",
+        "imageIds": [
+          "3",
+          "4"
+        ],
+        "lineItem": [
+          {
+            "description": "ew",
+            "amount": 1002.12,
+            "checkNumber": 12,
+            "memo": "memo",
+            "reference": "reference",
+            "imageIds": [
+              "7",
+              "8"
+            ],
+            "links": {
+              "image": [
+                {
+                  "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+                  "action": "GET"
+                }
+              ]
+            }
+          }
+        ],
+        "fiAttributes": [
+          {
+            "name": "207",
+            "value": "212"
+          },
+          {
+            "name": "235",
+            "value": "784"
+          }
+        ],
+        "links": {
+          "image": [
+            {
+              "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+              "action": "GET"
+            }
+          ]
+        },
+        "reward": {
+          "categoryId": "assdas",
+          "accrued": 12.12,
+          "adjusted": 12.12
+        },
+        "transactionType": "ADJUSTMENT"
+      }
+    ],
+    "bills": [
+      {
+        "totalPaymentDue": 12.12,
+        "minimumPaymentDue": 12.12,
+        "dueDate": "2025-10-02T00:00:00.000+00:00",
+        "autoPayEnabled": true,
+        "autoPayAmount": 120.12,
+        "autoPayDate": "2023-10-02T00:00:00.000+00:00",
+        "pastDueAmount": 120.12,
+        "lastPaymentAmount": 120.12,
+        "lastPaymentDate": "2022-01-02T00:00:00.000+00:00",
+        "statementBalance": 12.12,
+        "statementDate": "2021-10-02T00:00:00.000+00:00"
+      }
+    ]
+  }
+}

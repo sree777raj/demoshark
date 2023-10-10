@@ -1,0 +1,32 @@
+{
+  "id": "0e67811f9c12468f",
+  "status": "ACTIVE",
+  "parties": [
+    {
+      "registeredEntityId": "5493001052I34KDC1O18",
+      "name": "Seedling App",
+      "type": "DATA_RECIPIENT",
+      "homeUri": "https://www.seedling.com",
+      "logoUri": "https://www.seedling.com/assets/seedling-logo.png",
+      "registry": "GLEIF",
+      "registeredEntityName": "Oak Tree Holdings, Inc"
+    }
+  ],
+  "createdTime": "2022-08-22T13:40:25.000+00:00",
+  "expirationTime": "2023-08-22T13:40:25.000+00:00",
+  "updatedTime": "2022-09-08T09:02:53.542+00:00",
+  "durationType": "TIME_BOUND",
+  "durationPeriod": 365,
+  "lookbackPeriod": 365,
+  "resources": [
+    {
+      "resourceType": "ACCOUNT",
+      "resourceId": "b14e1e714693bc00",
+      "dataClusters": [
+        "ACCOUNT_DETAILED",
+        "TRANSACTIONS",
+        "STATEMENTS"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "page": {
+    "totalElements": 2
+  },
+  "links": {},
+  "transactions": [
+    {
+      "insuranceTransaction": {
+        "accountId": "002",
+        "transactionId": "409",
+        "referenceTransactionId": "101",
+        "postedTimestamp": "2021-10-02T00:00:00.000+00:00",
+        "transactionTimestamp": "2021-10-02T00:00:00.000+00:00",
+        "description": "sdasd",
+        "memo": "asdas",
+        "debitCreditMemo": "CREDIT",
+        "category": "9",
+        "subCategory": "asdas",
+        "reference": "121",
+        "status": "AUTHORIZATION",
+        "amount": 1235.00,
+        "foreignAmount": 1200.34,
+        "foreignCurrency": "AMD",
+        "imageIds": [
+          "35",
+          "36"
+        ],
+        "lineItem": [
+          {
+            "description": "ew",
+            "amount": 1200.12,
+            "checkNumber": 12,
+            "memo": "memo",
+            "reference": "reference",
+            "imageIds": [
+              "7",
+              "8"
+            ],
+            "links": {
+              "image": [
+                {
+                  "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+                  "action": "GET"
+                }
+              ]
+            }
+          }
+        ],
+        "fiAttributes": [
+          {
+            "name": "207",
+            "value": "212"
+          },
+          {
+            "name": "235",
+            "value": "784"
+          }
+        ],
+        "links": {
+          "image": [
+            {
+              "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+              "action": "GET"
+            }
+          ]
+        },
+        "reward": {
+          "categoryId": "assdas",
+          "accrued": 12.12,
+          "adjusted": 12.12
+        },
+        "transactionType": "ADJUSTMENT"
+      }
+    },
+    {
+      "insuranceTransaction": {
+        "accountId": "002",
+        "transactionId": "410",
+        "referenceTransactionId": "101",
+        "postedTimestamp": "2021-10-02T00:00:00.000+00:00",
+        "transactionTimestamp": "2021-10-02T00:00:00.000+00:00",
+        "description": "sdasd",
+        "memo": "asdas",
+        "debitCreditMemo": "CREDIT",
+        "category": "10",
+        "subCategory": "asdas",
+        "reference": "121",
+        "status": "AUTHORIZATION",
+        "amount": 1235.00,
+        "foreignAmount": 120.34,
+        "foreignCurrency": "AMD",
+        "imageIds": [
+          "3",
+          "4"
+        ],
+        "lineItem": [
+          {
+            "description": "ew",
+            "amount": 1002.12,
+            "checkNumber": 12,
+            "memo": "memo",
+            "reference": "reference",
+            "imageIds": [
+              "7",
+              "8"
+            ],
+            "links": {
+              "image": [
+                {
+                  "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+                  "action": "GET"
+                }
+              ]
+            }
+          }
+        ],
+        "fiAttributes": [
+          {
+            "name": "207",
+            "value": "212"
+          },
+          {
+            "name": "235",
+            "value": "784"
+          }
+        ],
+        "links": {
+          "image": [
+            {
+              "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+              "action": "GET"
+            }
+          ]
+        },
+        "reward": {
+          "categoryId": "assdas",
+          "accrued": 12.12,
+          "adjusted": 12.12
+        },
+        "transactionType": "ADJUSTMENT"
+      }
+    }
+  ]
+}

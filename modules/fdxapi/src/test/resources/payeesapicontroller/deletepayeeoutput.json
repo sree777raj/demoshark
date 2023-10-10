@@ -1,0 +1,35 @@
+{
+  "merchant": {
+    "displayName": "payee451",
+    "name": {
+      "first": "first1",
+      "middle": "middle",
+      "last": "last",
+      "suffix": "suffix",
+      "prefix": "prefix",
+      "company": "US Cellular8"
+    },
+    "address": {
+      "line1": "line6",
+      "line2": "line2",
+      "line3": "line3",
+      "city": "city",
+      "state": "state",
+      "postalCode": "postalcode",
+      "country": "AL",
+      "type": "MAILING"
+    },
+    "phone": {
+      "type": "HOME",
+      "country": "AR",
+      "number": "12332"
+    },
+    "merchantAccountIds": [
+      "12",
+      "12"
+    ],
+    "payeeId": "PAYEE-4",
+    "status": "DELETED",
+    "expiresTimestamp": "2022-10-03T08:27:09.996+00:00"
+  }
+}

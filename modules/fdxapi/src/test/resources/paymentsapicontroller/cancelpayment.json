@@ -1,0 +1,11 @@
+{
+  "amount": 10.14,
+  "topayeeid": "PAYEE-2",
+  "paymentid": "PAYMENT-6",
+  "fromaccountid": "252",
+  "duedate": "2022-12-30",
+  "merchantaccountid": "401",
+  "recurringpaymentid": "RECURRINGPAYMENT-2",
+  "cancelledtimestamp": "2022-11-02T15:36:56.000+00:00",
+  "status": "CANCELLED"
+}

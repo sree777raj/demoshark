@@ -1,0 +1,173 @@
+definitions:
+  services:
+    postgres:
+      image:
+         name: us-central1-docker.pkg.dev/fdx-ri-dev/postgrsql/postgres:v1
+         username: _json_key
+         password: '$GCP_ARTIFAC_JSON_API'
+      environment:
+        POSTGRES_DB: postgres
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: $POSTGRES_PASSWORD
+        DATABASE_URL: jdbc:postgresql://localhost:5432/postgres
+  steps:
+    - step: &build-push-deploy-image-custom-tomcat
+        name: 'Build & Push & Deploy Custom Config Tomcat Image'
+        image: google/cloud-sdk:alpine
+        services:
+          - docker
+        caches:
+          - docker
+        script:
+          - export BITBUCKET_COMMIT_SHORT=$(echo $BITBUCKET_COMMIT | cut -c1-7)
+          - docker build -t gcr.io/$FDX_GCP_PROJECT_NAME/tomcat:$BITBUCKET_COMMIT_SHORT --file ./config/tomcat/dev/Dockerfile .
+          - docker save --output tmp-image.docker gcr.io/$FDX_GCP_PROJECT_NAME/tomcat:$BITBUCKET_COMMIT_SHORT
+          - docker load --input ./tmp-image.docker
+          - echo $FDX_GCP_API_JSON > ./fdx-gcp-api-key.json
+          - gcloud auth activate-service-account --key-file ./fdx-gcp-api-key.json
+          - gcloud config set project $FDX_GCP_PROJECT_NAME
+          - cat ./fdx-gcp-api-key.json | docker login -u _json_key --password-stdin https://gcr.io
+          - docker push gcr.io/$FDX_GCP_PROJECT_NAME/tomcat:$BITBUCKET_COMMIT_SHORT
+          - gcloud components install kubectl
+          - gcloud config list
+          - gcloud container clusters get-credentials $FDX_KUBERNETES_CLUSTER_NAME --zone $ZONE --project $FDX_GCP_PROJECT_NAME
+          - cd infra/
+          - sed "s/GOOGLE_CLOUD_PROJECT/$FDX_GCP_PROJECT_NAME/g" deployment.yaml.tpl | sed "s/COMMIT_SHA/$BITBUCKET_COMMIT_SHORT/g" > deployment.yaml
+          - kubectl apply -f deployment.yaml -f service.yaml -f ingress.yaml -f backend.yaml
+    - step: &build-push-deploy-image
+        name: 'Build & Push & Deploy Image'
+        image: google/cloud-sdk:alpine
+        services:
+          - docker
+        caches:
+          - docker
+        script:
+          - export BITBUCKET_COMMIT_SHORT=$(echo $BITBUCKET_COMMIT | cut -c1-7)
+          - docker build -t gcr.io/$FDX_GCP_PROJECT_NAME/tomcat:$BITBUCKET_COMMIT_SHORT --file ./config/tomcat/Dockerfile .
+          - docker save --output tmp-image.docker gcr.io/$FDX_GCP_PROJECT_NAME/tomcat:$BITBUCKET_COMMIT_SHORT
+          - docker load --input ./tmp-image.docker
+          - echo $FDX_GCP_API_JSON > ./fdx-gcp-api-key.json
+          - gcloud auth activate-service-account --key-file ./fdx-gcp-api-key.json
+          - gcloud config set project $FDX_GCP_PROJECT_NAME
+          - cat ./fdx-gcp-api-key.json | docker login -u _json_key --password-stdin https://gcr.io
+          - docker push gcr.io/$FDX_GCP_PROJECT_NAME/tomcat:$BITBUCKET_COMMIT_SHORT
+          - gcloud components install kubectl
+          - gcloud config list
+          - gcloud container clusters get-credentials $FDX_KUBERNETES_CLUSTER_NAME --zone $ZONE --project $FDX_GCP_PROJECT_NAME
+          - cd infra/
+          - sed "s/GOOGLE_CLOUD_PROJECT/$FDX_GCP_PROJECT_NAME/g" deployment.yaml.tpl | sed "s/COMMIT_SHA/$BITBUCKET_COMMIT_SHORT/g" > deployment.yaml
+          - kubectl apply -f deployment.yaml -f service.yaml -f ingress.yaml -f backend.yaml
+    - step: &build-push-deploy-docker-copy
+        name: 'Build & Push & Deploy Docker Copy'
+        image: google/cloud-sdk:alpine
+        services:
+          - docker
+        caches:
+          - docker
+        script:
+          - export BITBUCKET_COMMIT_SHORT=$(echo $BITBUCKET_COMMIT | cut -c1-7)
+          - echo $FDX_GCP_API_JSON > ./fdx-gcp-api-key.json
+          - gcloud auth activate-service-account --key-file ./fdx-gcp-api-key.json
+          - gcloud config set project $FDX_GCP_PROJECT_NAME
+          - gsutil -m cp -r  gs://ridev-docker-copy/dataFiles .
+          - docker build -t gcr.io/$FDX_GCP_PROJECT_NAME/tomcat-copy:$BITBUCKET_COMMIT_SHORT --file ./config/tomcat/dockercopy/Dockerfile .
+          - docker save --output tmpcopy.image.docker gcr.io/$FDX_GCP_PROJECT_NAME/tomcat-copy:$BITBUCKET_COMMIT_SHORT
+          - docker load --input ./tmpcopy.image.docker
+          - cat ./fdx-gcp-api-key.json | docker login -u _json_key --password-stdin https://gcr.io
+          - docker push gcr.io/$FDX_GCP_PROJECT_NAME/tomcat-copy:$BITBUCKET_COMMIT_SHORT
+    - step: &build-fdx-ri-api
+        name: 'Build FDX RI API'
+        image: maven:3.8.6-openjdk-11-slim
+        services:
+          - postgres
+        caches:
+          - maven
+        script:
+          - mvn clean install -DreuseForks=false
+        artifacts:
+          - target/fdxapi##hosted-0.0.1-SNAPSHOT.war
+          - target/fdxapi##dc-0.0.1-SNAPSHOT.war
+    - step: &build-fdx-ri-tdm
+        name: 'Build FDX RI TDM'
+        image: maven:3.8.6-openjdk-11-slim
+        services:
+          - postgres
+        caches:
+          - maven
+        script:
+          - apt-get update && apt-get install -y unzip git curl python3
+            #- curl -sSL https://sdk.cloud.google.com | bash
+            #- export PATH="/root/google-cloud-sdk/bin:$PATH"
+            #- pwd
+            #- echo $BITBUCKET_BRANCH
+          - git clone --branch $BITBUCKET_BRANCH git@bitbucket.org:fdxdev/fdx-ri-tdm.git
+          - cd  fdx-ri-tdm
+            #- echo $FDX_GCP_API_JSON > ./fdx-gcp-api-key.json
+            #- gcloud auth activate-service-account --key-file ./fdx-gcp-api-key.json
+            #- gcloud config set project $FDX_GCP_PROJECT_NAME
+            #- gsutil -m cp -r  gs://ridev-docker-copy/dataFiles .
+            #- cat modules/adminui/src/main/resources/application.properties
+            #- sed -i "s|{catalina.base}|CATALINA_BASE_PATH|" modules/adminui/src/main/resources/application.properties
+            #- cat modules/adminui/src/main/resources/application.properties
+          - mvn clean install -DskipTests
+            #- ls -la dataFiles
+            #- ls -la dataFiles/locks/
+        artifacts:
+          - fdx-ri-tdm/target/adminui##hosted-0.0.1-SNAPSHOT.war
+          - fdx-ri-tdm/target/adminui##dc-0.0.1-SNAPSHOT.war
+    - step: &build-fdx-ri-auth
+        name: 'Build FDX RI AUTH'
+        image: maven:3.8.6-openjdk-11-slim
+        caches:
+          - maven
+        script:
+          - apt-get update && apt-get install -y unzip git
+          - git clone --branch $BITBUCKET_BRANCH git@bitbucket.org:fdxdev/fdx-ri-auth-server.git
+          - cd  fdx-ri-auth-server
+          - mvn clean install -DskipTests
+        artifacts:
+          - fdx-ri-auth-server/target/fdxriauthserver.war
+    - step: &build-fdx-ri-client
+        name: 'Build FDX RI CLIENT'
+        image: maven:3.8.6-openjdk-11-slim
+        caches:
+          - maven
+        script:
+          - apt-get update && apt-get install -y unzip git
+          - git clone --branch $BITBUCKET_BRANCH git@bitbucket.org:fdxdev/fdx-ri-auth-client.git
+          - cd  fdx-ri-auth-client
+          - mvn clean install -DskipTests
+        artifacts:
+          - fdx-ri-auth-client/target/fdxriauthclient.war
+pipelines:
+  branches:
+      develop:
+       - step: *build-fdx-ri-api
+       - step: *build-fdx-ri-auth
+       - step: *build-fdx-ri-client
+       - stage:
+           name: My Dev Deployment
+           deployment: test
+           steps:
+             - step:
+                 <<: *build-fdx-ri-tdm
+             - step:
+                 <<: *build-push-deploy-image-custom-tomcat
+      staging:
+       - step: *build-fdx-ri-api
+       - step: *build-fdx-ri-tdm
+       - step: *build-fdx-ri-auth
+       - step: *build-fdx-ri-client
+       - step:
+           <<: *build-push-deploy-image
+           deployment: staging
+           trigger: manual
+      production:
+       - step: *build-fdx-ri-api
+       - step: *build-fdx-ri-tdm
+       - step: *build-fdx-ri-auth
+       - step: *build-fdx-ri-client
+       - step:
+           <<: *build-push-deploy-image
+           deployment: production
+           trigger: manual

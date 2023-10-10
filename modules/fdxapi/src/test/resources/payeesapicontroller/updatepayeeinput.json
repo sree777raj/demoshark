@@ -1,0 +1,13 @@
+{
+  "merchant": {
+    "address": {
+      "line1": "add update",
+
+      "city": "address city",
+      "state": "state",
+      "postalCode": "77722",
+      "country": "AL",
+      "type": "MAILING"
+    }
+  }
+}

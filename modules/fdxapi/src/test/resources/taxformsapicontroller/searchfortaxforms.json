@@ -1,0 +1,2556 @@
+{
+  "page": {
+    "totalElements": 11
+  },
+  "forms": [
+    {
+      "businessIncomeStatement": {
+        "taxYear": 2012,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2012",
+        "taxFormDate": "2021-08-19",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "BusinessIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "name",
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "farmIncomeStatement": {
+        "taxYear": 2012,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2012",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "FarmIncomeStatement",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "royaltyIncomeStatement": {
+        "taxYear": 2012,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2012",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "RoyaltyIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "name",
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1042S": {
+        "taxYear": 2012,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2012",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1042S",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1095A": {
+        "taxYear": 2012,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2012",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1095A",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1098": {
+        "taxYear": 2012,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2012",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1098",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax3921": {
+        "taxYear": 2012,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2012",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax3921",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax5498": {
+        "taxYear": 2012,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2012",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax5498",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      }
+    },
+    {
+      "businessIncomeStatement": {
+        "taxYear": 2012,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2012",
+        "taxFormDate": "2021-08-19",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "BusinessIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "name",
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "farmIncomeStatement": {
+        "taxYear": 2012,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2012",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "FarmIncomeStatement",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "royaltyIncomeStatement": {
+        "taxYear": 2012,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2012",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "RoyaltyIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "name",
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1042S": {
+        "taxYear": 2012,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2012",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1042S",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1095A": {
+        "taxYear": 2012,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2012",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1095A",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1098": {
+        "taxYear": 2012,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2012",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1098",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax3921": {
+        "taxYear": 2012,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2012",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax3921",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax5498": {
+        "taxYear": 2012,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2012",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax5498",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      }
+    },
+    {
+      "businessIncomeStatement": {
+        "taxYear": 2012,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2012",
+        "taxFormDate": "2021-08-19",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "BusinessIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "name",
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1042S": {
+        "taxYear": 2012,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2012",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1042S",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1095A": {
+        "taxYear": 2012,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2012",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1095A",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1098": {
+        "taxYear": 2012,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2012",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1098",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax3921": {
+        "taxYear": 2012,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2012",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax3921",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      }
+    },
+    {
+      "businessIncomeStatement": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-19",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "BusinessIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "name",
+            "code": "code"
+          },
+          {
+            "boxNumber": "name",
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "farmIncomeStatement": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "FarmIncomeStatement",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "royaltyIncomeStatement": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "RoyaltyIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "name",
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1042S": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1042S",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1095A": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1095A",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1098": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1098",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax3921": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax3921",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax5498": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax5498",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      }
+    },
+    {
+      "businessIncomeStatement": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-19",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "BusinessIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "name",
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "farmIncomeStatement": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "FarmIncomeStatement",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "royaltyIncomeStatement": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "RoyaltyIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "name",
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1042S": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1042S",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1095A": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1095A",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1098": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1098",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax3921": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax3921",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax5498": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax5498",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      }
+    },
+    {
+      "businessIncomeStatement": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-19",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "BusinessIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "name",
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "farmIncomeStatement": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "FarmIncomeStatement",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "royaltyIncomeStatement": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "RoyaltyIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "name",
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1098": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1098",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax5498": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax5498",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      }
+    },
+    {
+      "businessIncomeStatement": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-19",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "BusinessIncomeStatement",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "royaltyIncomeStatement": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "RoyaltyIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "name",
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      }
+    },
+    {
+      "businessIncomeStatement": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-19",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "BusinessIncomeStatement",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "royaltyIncomeStatement": {
+        "taxYear": 2013,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "Tid-2013",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "RoyaltyIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "name",
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      }
+    },
+    {
+      "businessIncomeStatement": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "TaxTest2018",
+        "taxFormDate": "2021-08-19",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "BusinessIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "farmIncomeStatement": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "FarmIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "256",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "13510",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "farmRentalIncomeStatement": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "FarmRentalIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "rentalIncomeStatement": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "RentalIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "royaltyIncomeStatement": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "RoyaltyIncomeStatement",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1042S": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1042S",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1065K1": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1065K1",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      }
+    },
+    {
+      "tax1095A": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "2TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1095A",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1095B": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "2TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1095B",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1095C": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "2TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1095C",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1097Btc": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "2TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1097Btc",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1098": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "2TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1098",
+        "attributes": [
+          {
+            "code": "code"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1098C": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "2TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1098C",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1098E": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "2TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1098E",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1098Ma": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "2TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1098Ma",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      }
+    },
+    {
+      "tax1098Q": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "3TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1098Q",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1098T": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "3TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1098T",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1099B": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "3TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1099B",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1099C": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "3TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1099C",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1099Cap": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "3TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1099Cap",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1099Div": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "3TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1099Div",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1099G": {
+        "taxYear": 2018,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "3TaxTest2018",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1099G",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      }
+    },
+    {
+      "tax1099H": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1099H",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1099Int": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1099Int",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1099K": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1099K",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1099Ls": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1099Ls",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1099Ltc": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1099Ltc",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1099Misc": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1099Misc",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1099Nec": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1099Nec",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1099Oid": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1099Oid",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1099Patr": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1099Patr",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1099Q": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1099Q",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1099Qa": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1099Qa",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1099R": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1099R",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1099S": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1099S",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1099Sa": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1099Sa",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1099Sb": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1099Sb",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax1120SK1": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax1120SK1",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax2439": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax2439",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax3921": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax3921",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax3922": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax3922",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax5227K1": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax5227K1",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax5498": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax5498",
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax5498Esa": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax5498Esa",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax5498Qa": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax5498Qa",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "tax5498Sa": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "Tax5498Sa",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "taxW2": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "TaxW2",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "taxW2C": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "TaxW2C",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      },
+      "taxW2G": {
+        "taxYear": 2019,
+        "corrected": true,
+        "accountId": "101",
+        "taxFormId": "T2019",
+        "taxFormDate": "2021-08-07",
+        "description": "description",
+        "additionalInformation": "additionalInformation",
+        "taxFormType": "TaxW2G",
+        "attributes": [
+          {
+            "boxNumber": "12",
+            "code": "code",
+            "name": "name",
+            "value": "name"
+          }
+        ],
+        "error": {
+          "code": "2010",
+          "message": "depositaccount"
+        },
+        "links": {
+          "self": {
+            "href": "https://consumerdatastandardsaustralia.github.io/standards/images/logo.png",
+            "action": "GET"
+          }
+        }
+      }
+    }
+  ]
+}
